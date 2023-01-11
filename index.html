@@ -1,11 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>METRONOME</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <input type="button" value="-" />
-    <input value="60" />
+    <div class="main">
+        <script src="slider.js"></script>
+        <p id="output"></p>
+        <div class="slidecontainer">
+            <p>50</p>
+            <input type="range" min="50" max="150" value="100" class="slider" id="myRange">
+            <p>150</p>
+        </div>
+    </div>
 </body>
 </html>
